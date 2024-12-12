@@ -16,6 +16,7 @@ const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
             <NavLink to="/" className={({ isActive }) => isActive ? `${styles.NavLink} ${styles.Active}` : styles.NavLink}>Home</NavLink>
+            <NavLink to="/recipies" className={({ isActive }) => isActive ? `${styles.NavLink} ${styles.Active}` : styles.NavLink}>Recipies</NavLink>
             <NavLink to="/signin" className={({ isActive }) => isActive ? `${styles.NavLink} ${styles.Active}` : styles.NavLink}>Sign In</NavLink>
             <NavLink to="/signup" className={({ isActive }) => isActive ? `${styles.NavLink} ${styles.Active}` : styles.NavLink}>Sign Up</NavLink>
             </Nav>

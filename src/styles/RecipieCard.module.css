@@ -1,0 +1,36 @@
+.RecipeCard {
+    width: 18rem;
+    margin: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .RecipeCard:hover {
+    transform: translateY(-10px);
+  }
+  
+  .RecipeCard .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .RecipeCard .card-body {
+    text-align: center;
+  }
+  
+  .RecipeCard .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .RecipeCard .card-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .RecipeCard .btn {
+    margin-top: 10px;
+  }
