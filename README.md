@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+[Recipie mate](https://recipe-mate1-1ee83a3383d3.herokuapp.com/)
+
+## Project goals
+The goal of Recipe Mate is to create an easy-to-use platform for users to discover, create, and share their favorite recipes. The app allows users to easily add and organize recipes, search for recipes by categories and share their culinary creations with others. The design is mobile-first, ensuring a smooth experience across all devices. Users can securely create accounts, save their favorite recipes, and access them from anywhere. With a clean, visually appealing interface, Recipe Mate is built to help users stay organized in the kitchen while offering an enjoyable, interactive experience for food lovers.
+
 ## User stories
 As a user, I want to create and save new recipes so that I can share my cooking ideas.
 As a user, I want to view a list of my saved recipes so I can find them easily later.
@@ -19,3 +24,6 @@ As a user, I want to be able to view recipes on my phone so I can cook anywhere.
 - **Axios**: For making API requests from the front-end.
 - **Bootstrap**: For styling and responsive layout.
 - **SQLite/PostgreSQL**: For the database.
+
+## Code credits
+- [Bootstrap](https://react-bootstrap.netlify.app/) for form elements

@@ -13,7 +13,7 @@ const HomePage = () => {
               <p className={styles.HeroDescription}>
                 Discover new recipes and share your culinary creations with the world!
               </p>
-              <Button href="/recipes" variant="primary" size="lg" className={styles.HeroButton}>
+              <Button href="/recipepage" variant="primary" size="lg" className={styles.HeroButton}>
                 Explore Recipes
               </Button>
             </Col>
@@ -35,7 +35,7 @@ const HomePage = () => {
               <p className={styles.CallToActionDescription}>
                 Have a recipe you want to share with the world? Submit your creation to Recipe Mate today!
               </p>
-              <Button href="/submit-recipe" variant="success" size="lg" className={styles.CallToActionButton}>
+              <Button href="/recipepage" variant="success" size="lg" className={styles.CallToActionButton}>
                 Submit Recipe
               </Button>
             </Col>

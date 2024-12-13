@@ -6,6 +6,10 @@ import axios from 'axios';
 import styles from '../styles/RecipePage.module.css';
 
 const RecipePage = () => {
+
+  <Container>
+  <h1>Sign Up</h1>
+</Container>
   const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
