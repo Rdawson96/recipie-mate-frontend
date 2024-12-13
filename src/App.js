@@ -4,6 +4,8 @@ import Container from 'react-bootstrap/Container';
 import {Route,Routes} from 'react-router-dom';
 import SignUpForm from './pages/auth/SignUpForm';
 import SignInForm from './pages/auth/SignInForm';
+import RecipePage from './pages/RecipePage';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
@@ -11,8 +13,8 @@ function App() {
       <NavBar />
       <Container className={styles.Main}>
         <Routes>
-          <Route exact path="/" element={<h1>Home Page</h1>} />
-          <Route exact path="/recipies" element={<h1>Recipies</h1>} />
+          <Route exact path="/" element={<HomePage />} />
+          <Route exact path="/recipies" element={<RecipePage />} />
           <Route exact path="/signin" element={<SignInForm />} />
           <Route exact path="/signup" element={<SignUpForm />} />
           <Route element={<p>Page not Found!</p>} />

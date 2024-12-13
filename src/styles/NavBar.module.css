@@ -1,13 +1,36 @@
 .NavBar {
-    background-color: #fca103;
-    border: 1px solid #dadadf;
-    color: #0b025c;
-  }
+  background-color: #fca103;
+  border: 1px solid #dadadf;
+  color: #0b025c;
+}
 
-  .NavLink {
-    padding: 6px;
-  }
+.Active {
+  color: #ba0b0b;
+}
 
-  .Active {
-    color: #ba0b0b;
-  }
+.Logo {
+  color: #ba0b0b;
+  text-decoration: none; 
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+
+.NavBar .NavLink {
+  text-decoration: none;
+}
+
+.NavLink {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #0b025c;
+  transition: color 0.3s ease;
+  padding: 6px;
+}
+
+.NavLink:hover {
+  color: #ba0b0b;
+  text-decoration: none;
+}

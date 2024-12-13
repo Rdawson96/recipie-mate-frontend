@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
-import styles from './RecipeCard.module.css';
+import styles from '../styles/RecipeCard.module.css';
 
 const RecipeCard = ({ title, image, description }) => {
   return (

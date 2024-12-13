@@ -1,0 +1,71 @@
+.HomePage {
+    background-color: #f4f4f4;
+    padding-top: 60px;
+  }
+  
+  .HeroSection {
+    background: linear-gradient(120deg, #fca103, #ba0b0b);
+    padding: 100px 0;
+    color: white;
+    border-bottom: 5px solid #0b025c;
+  }
+  
+  .HeroTitle {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .HeroDescription {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+  
+  .HeroButton {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    background-color: #ba0b0b;
+    border: none;
+  }
+  
+  .HeroButton:hover {
+    background-color: #fca103;
+    color: white;
+  }
+  
+  .HeroImage {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .CallToAction {
+    background-color: #ffffff;
+    padding: 60px 0;
+    margin-top: 40px;
+  }
+  
+  .CallToActionTitle {
+    font-size: 2.5rem;
+    color: #0b025c;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .CallToActionDescription {
+    font-size: 1.2rem;
+    color: #7177a1;
+    margin-bottom: 30px;
+  }
+  
+  .CallToActionButton {
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+  }
+  
+  .CallToActionButton:hover {
+    background-color: #218838;
+  }

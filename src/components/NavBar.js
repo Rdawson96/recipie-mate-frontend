@@ -8,15 +8,15 @@ const NavBar = () => {
       <Navbar className={styles.NavBar} expand="md" fixed="top">
         <Container>
         <NavLink to="/">
-          <Navbar.Brand>
-            Recipie Mate
+          <Navbar.Brand className={styles.Logo}>
+            Recipe Mate
           </Navbar.Brand>
           </NavLink>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
             <NavLink to="/" className={({ isActive }) => isActive ? `${styles.NavLink} ${styles.Active}` : styles.NavLink}>Home</NavLink>
-            <NavLink to="/recipies" className={({ isActive }) => isActive ? `${styles.NavLink} ${styles.Active}` : styles.NavLink}>Recipies</NavLink>
+            <NavLink to="/recipepage" className={({ isActive }) => isActive ? `${styles.NavLink} ${styles.Active}` : styles.NavLink}>Recipes</NavLink>
             <NavLink to="/signin" className={({ isActive }) => isActive ? `${styles.NavLink} ${styles.Active}` : styles.NavLink}>Sign In</NavLink>
             <NavLink to="/signup" className={({ isActive }) => isActive ? `${styles.NavLink} ${styles.Active}` : styles.NavLink}>Sign Up</NavLink>
             </Nav>

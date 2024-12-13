@@ -1,16 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import RecipeCard from './RecipeCard'; // Make sure path is correct
-import axios from 'axios'; // Import axios
+import RecipeCard from '../components/RecipeCard';
+import axios from 'axios';
 
-import styles from '../../styles/RecipePage.module.css';
+import styles from '../styles/RecipePage.module.css';
 
 const RecipePage = () => {
   const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
 
-  // Fetch recipes from API
   useEffect(() => {
     const fetchRecipes = async () => {
       try {
