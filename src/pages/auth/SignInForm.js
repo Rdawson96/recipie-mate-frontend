@@ -23,11 +23,15 @@ const SignInForm = () => {
         <Form.Label className="d-none">Password</Form.Label>
         <Form.Control type="password" placeholder="Password" />
       </Form.Group>
-
       <Button type="submit">
         Submit
       </Button>
     </Form>
+    <Container className={`mt-3 ${appStyles.Content}`}>
+          <Link className={styles.Link} to="/signup">
+            Don't have an account? <span>Sign Up!</span>
+          </Link>
+        </Container>
       </Col>
     </Row>
   );

@@ -1,0 +1,42 @@
+.Card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.Card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.Card img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  object-fit: cover;
+}
+
+.Card .card-body {
+  padding: 15px;
+}
+
+.Card .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.Card .card-text {
+  font-size: 1rem;
+  color: #7177a1;
+}
+
+.Card .btn {
+  background-color: #fca103;
+  border: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Card .btn:hover {
+  background-color: #ba0b0b;
+}
