@@ -1,14 +1,19 @@
 .Row {
     height: calc(100vh - 81px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .Input {
-    background: #ffffff;
+
+  .Container {
+    background-color: #ffffff;
     border: 1px solid #f0f1f9;
+    padding: 30px;
     box-sizing: border-box;
-    border-radius: 2px;
-    color: #7177a1;
-    text-align: center;
-    padding: 10px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .Header {
@@ -20,21 +25,33 @@
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: #2142b2;
+    margin-bottom: 20px;
   }
   
+
+  .Input {
+    background: #ffffff;
+    border: 1px solid #f0f1f9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #7177a1;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+ 
   .Link {
     text-decoration: none;
     text-align: center;
     display: block;
-    margin: auto;
+    margin-top: 10px;
   }
   
   .Link span {
     color: #ff9254;
-  }
-  
-  .Container {
-    padding: 30px 10px;
+    font-weight: bold;
   }
   
   .SignInCol {
@@ -43,4 +60,10 @@
   
   .SignUpCol {
     height: 375px;
+  }
+  
+  @media (max-width: 767px) {
+    .Container {
+      padding: 20px;
+    }
   }
